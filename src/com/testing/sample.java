@@ -12,9 +12,8 @@ public class sample {
 	
 	WebDriver driver=new ChromeDriver();
 		
-	 driver.navigate().to("https://www.facebook.com/");
 		
-	driver.manage().window().maximize();
+	
 	
 	WebElement findElement = driver.findElement(By.linkText("Forgotten password?"));
 	
